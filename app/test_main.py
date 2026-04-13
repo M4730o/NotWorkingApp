@@ -15,7 +15,7 @@ class TestApp(unittest.TestCase):
         response = self.app.get('/')
         self.assertEqual(response.status_code, 200)
         data = response.get_json()
-        self.assertEqual(data['message'], 'Hello! This is a sample CI/CD application')
+        self.assertEqual(data['mensaje'], 'Hello! This is a sample CI/CD application')
 
 if __name__ == '__main__':
     unittest.main()
