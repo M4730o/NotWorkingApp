@@ -83,6 +83,6 @@ jobs:
       
     - name: Deploy to production
       run: |
-        echo "Simulando despliegue a producción"
-        echo "En un escenario real, aquí se usaría un secreto como ${{ secrets.DEPLOY_TOKEN }}"
-        echo "para conectarse al servidor de producción y desplegar la aplicación"
+        echo "Simulating deployment to production"
+        echo "In a real scenario, a secret like ${{ secrets.DEPLOY_TOKEN }} would be used"
+        echo "to connect to the production server and deploy the application"
